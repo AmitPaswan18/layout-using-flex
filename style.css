@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  display: flex;
+}
+
+.nav {
+  background-color: #d0edd3;
+  height: 100vh;
+  width: 20vw;
+}
+
+.header {
+  height: 10vh;
+  padding-left: 10px;
+  background-color: #7ee232;
+}
+
+.main-section {
+  display: flex;
+}
+.section {
+  width: 70vw;
+}
+.article {
+  width: 70vw;
+  height: 80vh;
+  padding-left: 10px;
+  background-color: white;
+}
+.footer {
+  height: 10vh;
+  padding-left: 10px;
+  background-color: #7ee232;
+}
+
+.aside {
+  width: 15vw;
+  background-color: #f2fada;
+}
