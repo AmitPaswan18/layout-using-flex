@@ -160,10 +160,14 @@
   .footer {
     padding-left: 20em;
   }
-
   .aside {
-    padding-left: 15px;
-    width: 30vw;
+    position: absolute;
+    top: 10vh;
+    bottom: 0;
+    right: 0;
+    height: 90vh;
+    z-index: 1;
+    width: 15vw;
   }
 }
 
@@ -196,7 +200,13 @@
   }
 
   .aside {
-    width: 30vw;
+    position: absolute;
+    top: 10vh;
+    bottom: 0;
+    right: 0;
+    height: 90vh;
+    z-index: 1;
+    width: 20vw;
   }
 }
 
@@ -212,7 +222,7 @@
     position: absolute;
     top: 0;
     padding-left: 15px;
-    width: 20vw;
+    width: 15vw;
   }
 
   .header {
@@ -226,11 +236,17 @@
     padding-left: 30em;
   }
   .footer {
-    width: 80vw;
+    width: 60vw;
     padding-left: 30em;
   }
 
   .aside {
-    width: 30vw;
+    position: absolute;
+    top: 10vh;
+    bottom: 0;
+    right: 0;
+    height: 90vh;
+    z-index: 1;
+    width: 20vw;
   }
 }
